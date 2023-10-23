@@ -31,6 +31,9 @@ p{
     margin-left: 10%;
     line-height: 28px;
 }
+button{
+    font-size: 1rem;
+}
 /*inicio header 1*/
 .header1{
     height: 4.25rem;
@@ -177,7 +180,7 @@ p{
 .text_presentacion{
     color: aliceblue;
     width: 80%;
-    font-size:3.41vh;
+    background-size:1.125rem;
     padding-left: 10%;
     margin-top: 0.188rem;
     
