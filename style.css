@@ -260,10 +260,12 @@ button{
     margin-bottom: 5%;
 }
 .sobre_mi_portafolio{
+    width: 80%;
     color: #EAEAEA;
     background-size:1.125rem;
     padding-top: 10%;
     margin-left: 10%;
+    text-align: center;
 }
 .lista{
     width: 100%;
@@ -470,6 +472,10 @@ footer a{
 }
 
 .referencia_imagenes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 .referencia_imagenes img{
@@ -659,7 +665,11 @@ background-color: transparent;
     border: 1px solid #EAEAEA;
     justify-content: center;
     justify-items: center;
+
+    flex-direction:row;
 }
+
+
 .canva-experiencia{
     margin-bottom: 3%;
 
