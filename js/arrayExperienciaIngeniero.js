@@ -48,7 +48,7 @@ trabajosRealizados.push({
 
 trabajosRealizados.push({
      imageWebPort:"./img/Exp-ingeniero/imagen2.2.jpg",
-     imageWebCod:"./img/Exp-ingeniero/imagen2.PNG",
+     imageWebCod:"./img/Exp-ingeniero/imagen2.png",
      text:"Participé en proyectos que implicaban el levantamiento de estaciones de potabilización de agua existentes y la realización de rediseños para la actualización de tecnologías con el fin de mejorar el servicio. Durante este proceso, fui responsable de diseñar los planos, así como de llevar a cabo estudios eléctricos y de automatización.",
 });
 

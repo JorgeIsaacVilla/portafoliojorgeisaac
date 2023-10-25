@@ -27,20 +27,20 @@ const trabajosRealizados = [];
 });*/
 
 trabajosRealizados.push({
-     imageWebPort:"./img/Exp-Maestro/imagen1.jpg",
-     imageWebCod:"./img/Exp-Maestro/imagen2.jpg",
+     imageWebPort:"./img/Exp-maestro/Imagen1.jpg",
+     imageWebCod:"./img/Exp-maestro/Imagen2.jpg",
      text:"Como profesor, he tenido el privilegio de ser una influencia positiva para muchos padres y niños, ofreciendo servicios de clases personalizadas y grupales de manera presencial. Mi enfoque comienza por conocer a los estudiantes, comprender su temperamento, sueños y anhelos, y valorar su creatividad. A partir de ahí, adapto mi enseñanza para ayudarles a alcanzar esas metas. Acompaño a mis alumnos no solo durante las clases, sino también fuera de ellas, asegurándome de que comprendan completamente la materia.",
 });
 
 trabajosRealizados.push({
-     imageWebPort:"./img/Exp-Maestro/imagen5.jpg",
-     imageWebCod:"./img/Exp-Maestro/imagen6.jpg",
+     imageWebPort:"./img/Exp-maestro/Imagen5.jpg",
+     imageWebCod:"./img/Exp-maestro/Imagen6.jpg",
      text:"Desde siempre, he mantenido la convicción de que cualquier persona, independientemente de su edad o limitaciones, tiene el potencial para aprender cosas nuevas y alcanzar sus sueños. Es por eso que me dedico con empeño a crear materiales personalizados, diseñados para facilitar la comprensión de la materia. Mi objetivo es eliminar juicios y desvanecer los tabúes que puedan estar arraigados en su mente, alentándolos a comprender que la valentía radica en el intento de aprender, incluso cuando algo parezca desafiante y único. ",
 });
 
 trabajosRealizados.push({
-     imageWebPort:"./img/Exp-Maestro/imagen3.jpg",
-     imageWebCod:"./img/Exp-Maestro/imagen4.jpg",
+     imageWebPort:"./img/Exp-maestro/Imagen3.jpg",
+     imageWebCod:"./img/Exp-maestro/Imagen4.jpg",
      text:"Aprovecho mi conocimiento en tecnología e innovación para organizar, gestionar y crear plataformas y recursos tanto para la enseñanza virtual como presencial. Asimismo, utilizo de manera efectiva las tecnologías comerciales conocidas.",
 });
 
