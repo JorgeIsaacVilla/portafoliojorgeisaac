@@ -27,7 +27,7 @@ const trabajosRealizados = [];
 });*/
 
 trabajosRealizados.push({
-     imageWebPort:"./img/Exp-maestro/Imagen1.jpg",
+     imageWebPort:"./img/Exp-maestro/imagen1.jpg",
      imageWebCod:"./img/Exp-maestro/Imagen2.jpg",
      text:"Como profesor, he tenido el privilegio de ser una influencia positiva para muchos padres y niños, ofreciendo servicios de clases personalizadas y grupales de manera presencial. Mi enfoque comienza por conocer a los estudiantes, comprender su temperamento, sueños y anhelos, y valorar su creatividad. A partir de ahí, adapto mi enseñanza para ayudarles a alcanzar esas metas. Acompaño a mis alumnos no solo durante las clases, sino también fuera de ellas, asegurándome de que comprendan completamente la materia.",
 });
