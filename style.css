@@ -134,8 +134,9 @@ button{
     font-family: Lato, Bold;
 }*/
 .des_exp{
-    font-size: 3.41vh;
+    font-size: 1rem;
     font-family: Lato, Bold;
+    color:white;
 }
 #ventana_flotante{
     background:rgba(18,22,29,255);
@@ -345,6 +346,25 @@ width: auto;
 justify-content: center;
 align-items: center;
 }
+.experiencia-button{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    opacity: 1; 
+    padding-bottom: 0.15rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    margin-left: 10%;
+    margin-bottom: 16px;
+}
+.experiencia-button #vent_flotante{
+    text-decoration: none;
+}
 .portafolio_izquierda{
     display: flex;
     flex-direction: row;
@@ -540,6 +560,10 @@ margin-top: 16px;
     position: absolute;
     left: 80%;
     top: 0;
+
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 #cerrar::after{
 background-color: transparent;
@@ -567,8 +591,8 @@ background-color: transparent;
     margin-bottom: 15px;
     border-radius: 15px;
     border: 1px solid #EAEAEA;
-    padding-right: 10px;
-    padding-left: 10px;
+    /*padding-right: 10px;
+    padding-left: 10px;*/
 
 }
 
@@ -576,6 +600,7 @@ background-color: transparent;
     margin-top: 5%;
     color: #EAEAEA;
     width: 100%;
+    font-size: 1rem;
 }
 
 .canva_exp_scroll h3{   

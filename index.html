@@ -39,8 +39,11 @@
      </div>
      <div class="textos_parrafos">
           <p class="history">Los desafíos no son obstáculos, sino oportunidades de crecimiento y aprendizaje. La pasión es mi motor en todo lo que emprendo. Los grandes retos son mi fuente de inspiración, ya que representan oportunidades para aprender, experimentar y fortalecer mi creatividad. En mi camino, he descubierto que alinear mis sueños con objetivos es la clave para convertirlos en realidad, y eso me define como la persona que soy actualmente.</p>
+          
+          <button  class="experiencia-button ver_portafolio" onclick="aparecer()" href="javascript:funciones()"> Experiencia</button>
 
      </div>
+
      <h2 class="text_presentacion">¿Qué estás buscando?</h2>
      <div class="canva-buttons-portfolios">
           <button class="ver_portafolio"><a href="./ingenieria.html" class="ver_portafolio_Enlace"> Ingeniero Eléctrico </a></button>
@@ -103,7 +106,88 @@
                </div>
           </div>
      </div>
+
+<!--INICIO - VENTANA FLOTANTE, (inicio)-->
+     <div id="ventana_flotante">
+          <div class="header_ventana_flotante">
+               <div>
+                    <div class="saturno">
+                         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                         <lottie-player class="saturno_image" src="0tUXPO11PA.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                    </div>
+                    <h2 class="des_exp">Resolvamos el mundo juntos.</h2>
+               </div>
+               <button href="#contactame" id="cerrar" onclick="desaparecer()" href="javascript:funciones()"><img src="./img/Grupo 14439.png" alt=""></button>
+          </div>
+          
+          <div class="canva_vent_flot">
+               <div class="canva_elements">
+                    <div class="canva_exp">
+                         <h2>Trabajos independientes.</h2>
+                         <div class="canva_exp_scroll">
+                              <ul>
+                                   <li> 
+                                        <h3> Monastery </h3>
+                                        <a href="https://www.monasterynft.com/"><img src="./img/Exp/Monastery.PNG" alt=""></a>
+                                        <p>Pagina de aterrizaje, dinámica, intuitiva, responsive.</p>
+                                   </li>
+
+                                   <li> 
+                                        <h3> El Desvio Restobar </h3>
+                                        <a href="https://jorgeisaacvilla.github.io/el-desvio-restobar/"><img src="./img/Exp/ElDesvioRestobar.PNG" alt=""></a>
+                                        <p>Diseño de pagina web y mantenimiento de pagina - Menú en línea.</p>
+                                   </li>
+                              </ul>
+                         </div>
+                    </div>
+                    <div class="canva_exp">
+                         <h2>Experiencia laboral</h2>
+                         <div class="canva_exp_scroll">
+                              <ul>
+                                   <li>Electricaribe S.A. E.S.P.</li>
+                                   <p>Auxiliar de jefe de mantenimiento; encargado de realizar mantenimiento correctivo y predictivo en líneas de media tensión</p>
+                                   <li>M&E ingenieria</li>
+                                   <p>Encargado de diseño de redes eléctricas de media y baja tensión, y uso final, diseño de sistemas fotovoltaicos, diseño de control y automatización de procesos industriales</p>
+                                   <li>APPLUS + </li>
+                                   <p>Ingeniero de Telecontrol</p>
+                                   <li>Conforfresh</li>
+                                   <p>Encargado de diseño de control y automatización, programación de PLC, controladores PID, variadores de velocidad, entre otros para los sistemas de refrigeración industrial, atención al cliente para gestión y mantenimiento locativo.</p>
+                                   <li>consultoras SAS</li>
+                                   <p>Auxiliar de estructuración de proyectos</p>
+                                   <li>JST projects</li>
+                                   <p>Ingeniero de diseño y de presupuesto</p>
+                                   <li>INEN</li>
+                                   <p>Profesor de Matemáticas y Física. Primaria y Bachillerato</p>
+                              </ul>
+                         </div>
+                    </div>
+                    <!--<p class="des_exp">Resolvamos el mundo juntos.</p> -->
+               </div>     
+          </div>
+     </div>
+<!--INICIO - VENTANA FLOTANTE, (fin)-->
+
      <footer><a href="https://jorgeisaac.website/">Si deseas ver mi perfil completo, por favor haz clic ¡aquí!</a></footer>
+
+     
+     <script>
+          function funciones(){
+               document.getElementById("vent_flotante").onclick = aparecer;
+               document.getElementById("cerrar").onclick = desaparecer;
+          }
+
+          function aparecer(){
+                    var x=document.getElementById("ventana_flotante").style;
+                         x.display = "block";
+                         menu.classList.toggle('active');
+          document.body.classList.toggle('opacity');
+          }
+
+          function desaparecer(){
+                    var x=document.getElementById("ventana_flotante").style;
+                         x.display = "none";
+          } 
+     </script>
 </section>
 </body>
 </html>
