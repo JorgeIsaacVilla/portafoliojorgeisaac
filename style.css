@@ -587,7 +587,7 @@ background-color: transparent;
 .canva_exp{
     width: 80%;
     height: 30vh;
-    margin-left: 25px;
+    margin: auto;
     margin-bottom: 15px;
     border-radius: 15px;
     border: 1px solid #EAEAEA;
