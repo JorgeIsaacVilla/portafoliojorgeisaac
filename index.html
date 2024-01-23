@@ -26,21 +26,34 @@
                <div class="name_image" style=" margin-left: 0; margin-top: 0;"></div>
           </div>
      </div>
+     <div class="icono-menu">
+          <img src="./img/open-menu.png" id="icono-menu">
+     </div>
+     <div class="cont-menu active" id="menu">
+          <ul>
+               <li id="list_style" class="sobre_mi_li"><a href="#sobreMi">Descripción</a></li>
+               <li id="list_style"><a href="#portafolioExperiencia">Portafolio</a></li>
+               <li id="list_style"><a class="boton_contactame_header" href="#contactame">Contáctame</a></li>
+          </ul>
+     </div>
+     <script src="./js/app.js"></script>
+
 </header>
 <div id="particles-js"></div>
      <script src="js/particles.min.js"></script>
      <script src="js/particlesjs-config.json"></script>
-<section class="presentacion">
-     <h1>Hola! Un gusto tenerte por aquí.</h1>
-     <h2 class="text_presentacion">Soy Jorge Villa, un apasionado por la tecnología que integra la ingeniería con el desarrollo web.</h2>
+<section class="presentacion" id="sobreMi">
+     <h1 >¡Hola! Que gusto tenerte</h1>
+     <h1 style="padding-top: 0px!important; margin-bottom: 32px;">por aquí.</h1>
+     <h2 class="text_presentacion">Soy Jorge Villa, un apasionado por la tecnología que integra el desarrollo web con la ingeniería.</h2>
      <div class="presentacion1">
           <img class="mi_imagen"  src="./img/mi_imagen.jpg"/>
      </div>
      <div class="textos_parrafos"> 
-          <p  class="history">Dejo mi huella en cada reto que emprendo, hago que mi imaginación tome forma y las convierto en soluciones tangibles. Puedes contar con mis conocimientos, habilidades y experiencia para que la visión de tu proyecto se haga realidad. Con persistencia, compromiso, respeto y honestidad podremos lograr lo que sea.</p>
+          <p  class="history">Dejo mi huella en cada reto que emprendo. Puedes contar con mis conocimientos, habilidades y experiencia para que la visión de tu proyecto, con persistencia, compromiso, respeto y honestidad, se haga realidad.</p>
      </div>
      <div>
-          <button  class="experiencia-button ver_portafolio" onclick="aparecer()" href="javascript:funciones()"> Experiencia</button>
+          <!--<button  class="experiencia-button ver_portafolio" onclick="aparecer()" href="javascript:funciones()"> Experiencia</button>-->
           <p class="history">Aptitudes:</p>       
                <div class="lista">
                     <ul class="li1">
@@ -61,11 +74,10 @@
                     </ul>
                </div>               
      </div>
-
-     <h2 class="text_presentacion">¿Qué perfil deseas conocer de mi?</h2>
+     <h2 class="text_presentacion">¿Cuál de mis perfiles te gustaría conocer?</h2>
      <div class="canva-buttons-portfolios">
-          <button class="ver_portafolio"><a href="./ingenieria.html" class="ver_portafolio_Enlace"> Ingeniero Eléctrico </a></button>
           <button class="ver_portafolio"><a href="./desarrolloWeb.html" class="ver_portafolio_Enlace">Desarrollador de software</a></button>
+          <button class="ver_portafolio"><a href="./ingenieria.html" class="ver_portafolio_Enlace"> Ingeniero Eléctrico </a></button>
           <button class="ver_portafolio"><a href="./maestro.html" class="ver_portafolio_Enlace">Maestro</a></button>
      </div>
 </section>
@@ -125,7 +137,7 @@
           </div>
      </div>
 
-<!--INICIO - VENTANA FLOTANTE, (inicio)-->
+<!--INICIO - VENTANA FLOTANTE, (inicio)
      <div id="ventana_flotante">
           <div class="header_ventana_flotante">
                <div>
@@ -185,16 +197,15 @@
                               </ul>
                          </div>
                     </div>
-                    <!--<p class="des_exp">Resolvamos el mundo juntos.</p> -->
+                    <p class="des_exp">Resolvamos el mundo juntos.</p>
                </div>     
           </div>
-     </div>
+     </div> -->
 <!--INICIO - VENTANA FLOTANTE, (fin)-->
 
-     <footer><a href="https://jorgeisaac.website/">Si deseas ver mi perfil completo, por favor haz clic ¡aquí!</a></footer>
-
-     
-     <script>
+     <footer><a href="https://jorgeisaac.website/">Si deseas ver mi perfil con una experiencia de pixel art, haz clic ¡aquí!</a></footer>
+   
+     <!--<script>
           function funciones(){
                document.getElementById("vent_flotante").onclick = aparecer;
                document.getElementById("cerrar").onclick = desaparecer;
@@ -211,7 +222,7 @@
                     var x=document.getElementById("ventana_flotante").style;
                          x.display = "none";
           } 
-     </script>
+     </script>-->
 </section>
 </body>
 </html>

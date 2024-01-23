@@ -147,7 +147,7 @@ button{
     height: 80%;
     width: 73%;
     border-radius: 3.466204506065858vh;
-    margin-top: 10vh;
+    /*margin-top: 10vh;*/
     margin-bottom: 30vh;
     margin-left: 7vh;
     left: 0.3%;
@@ -650,12 +650,12 @@ background-color: transparent;
         padding-top: 10px;
     }
     #ventana_flotante{
-        height: 75%;
+        height: 90%;
         width: 90%;
         left: 0;
         top: 60px; 
-        margin-left: 3%;
         text-align: center;
+        z-index: 100;
     }
  
     .header_ventana_flotante{
@@ -761,17 +761,19 @@ margin-left: 15px;
     }
     .canva_elements{
         display: flex;
-        width: 80%;     
+        width: 80%;   
     }
     .canva_exp{
         width: 40%;
         height: 62vh;
         margin: auto;
-        margin-left: 25px;
+
         border-radius: 15px;
         border: 1px solid #EAEAEA;
         padding-right: 10px;
         padding-left: 10px;
+
+        /*margin-left: 25px;*/
 
     }
     .canva_exp h2{
@@ -784,8 +786,9 @@ margin-left: 15px;
         list-style: none;
         color:  #00CDBA;
         font-size: 5rem;
-        height: 75%;
         overflow: auto;
+
+        height: 90%;
     }
     .canva_exp_scroll img{
         width: 250px;
