@@ -26,7 +26,20 @@ const trabajosRealizados = [];
      enlaceWeb:"https://jorgeisaacvilla.github.io/Prueba1/",
 });*/
 
-
+trabajosRealizados.push({
+     imageWebPort:"./img/Exp/DisalvoTruck.PNG",
+     imageWebCod:"./img/Exp/DisalvoTruck_Cod.PNG",
+     text:"Quiero compartirles la primera Página web que desarrolle con Wordpress trabajando para la empresa QA digital ADS. Esta página web está desarrollada con elementor Pro y CSS, con altos estándares de calidad en diseño, buenas practicas y ciber seguridad, utilizando los plugins correspondientes. ",
+     enlaceGit:"https://qadigitalads.com/",
+     enlaceWeb:"https://disalvocourierservice.com/",
+});
+trabajosRealizados.push({
+     imageWebPort:"./img/Exp/Enycosmic_Cod.PNG",
+     imageWebCod:"./img/Exp/enycosmic.PNG",
+     text:"Enycosmic Metavers es un proyecto emprendedor que combina múltiples tecnologías para crear un metaverso cósmico interactivo y educativo. En el frontend, utilizamos React y JavaScript, mientras que en el backend implementamos Node.js, Python y PHP. Además, empleamos WordPress como CMS para funciones específicas. Nuestro metaverso funciona como un juego multijugador que integra gráficos 3D y 2D, y elementos de realidad aumentada para ofrecer una experiencia de interacción y aprendizaje inmersiva.",
+     enlaceGit:"https://www.linkedin.com/in/jorge-villa-l%C3%B3pez-742647b5/",
+     enlaceWeb:"https://www.enycosmic.site/",
+});
 trabajosRealizados.push({
      imageWebPort:"./img/Exp/Monastery.PNG",
      imageWebCod:"./img/Exp/Monastery_Cod.PNG",
@@ -55,21 +68,6 @@ trabajosRealizados.push({
      enlaceGit:"https://github.com/JorgeIsaacVilla/Todo-list-react",
      enlaceWeb:"https://jorgeisaacvilla.github.io/Todo-list-react/",
 });
-trabajosRealizados.push({
-     imageWebPort:"./img/Exp/Icomer.PNG",
-     imageWebCod:"./img/Exp/Icomer_Cod.PNG",
-     text:"Te comparto Esta e-commerce Programada en HTML, CSS, JS, este proyecto se desarrollo con el fin de demostrar maquetación web, estilos en Css, y aplicación de Arreglos con JavaScript, y buenas prácticas de desarrollo. Accede a los demos para más detalles",
-     enlaceGit:"https://github.com/JorgeIsaacVilla/icomer_enext",
-     enlaceWeb:"https://jorgeisaacvilla.github.io/icomer_enext/",
-});
-trabajosRealizados.push({
-     imageWebPort:"./img/Exp/Prueb2.PNG",
-     imageWebCod:"./img/Exp/Prueb2_Cod.PNG",
-     text:"Programando “lista de chequeo.” Este desarrollo se realizo con la intención de que puedan observar mi técnica de programación con Angular; procurando mantener un sentido estético, coherente y agradable a la vista. ¡Es importante que la primera impresión siempre impacte!",
-     enlaceGit:"https://github.com/JorgeIsaacVilla/TODO_LIST_ANGULAR",
-     enlaceWeb:"https://jorgeisaacvilla.github.io/TODO_LIST_HTML/",
-});
-
 
 function renderExperiencia(arr){
      for(experiencia of arr){
