@@ -35,7 +35,7 @@ trabajosRealizados.push({
 });
 trabajosRealizados.push({
      imageWebPort:"./img/Exp/Enycosmic_Cod.PNG",
-     imageWebCod:"./img/Exp/enycosmic.PNG",
+     imageWebCod:"./img/Exp/Enycosmic.PNG",
      text:"Enycosmic Metavers es un proyecto emprendedor que combina múltiples tecnologías para crear un metaverso cósmico interactivo y educativo. En el frontend, utilizamos React y JavaScript, mientras que en el backend implementamos Node.js, Python y PHP. Además, empleamos WordPress como CMS para funciones específicas. Nuestro metaverso funciona como un juego multijugador que integra gráficos 3D y 2D, y elementos de realidad aumentada para ofrecer una experiencia de interacción y aprendizaje inmersiva.",
      enlaceGit:"https://www.linkedin.com/in/jorge-villa-l%C3%B3pez-742647b5/",
      enlaceWeb:"https://www.enycosmic.site/",
