@@ -27,7 +27,7 @@ const trabajosRealizados = [];
 });*/
 
 trabajosRealizados.push({
-     imageWebPort:"./img/Exp-maestro/imagen7.jpg",
+     imageWebPort:"./img/Exp-maestro/Imagen7.jpg",
      imageWebCod:"./img/Exp-maestro/Imagen8.jpg",
      text:"Como profesor aprovecho todo mis recursos y conocimiento en desarrollo de tecnologías para crear material interactivo para que los estudiantes tengan una experiencia de aprendizaje más inmersiva, y ser de ejemplo para mis estudiantes desde la práctica. BIN es un Bot avanzado que desarrolle como asistente virtual para dar clases de informática, y a los estudiantes les encanta.",
 });
