@@ -27,19 +27,37 @@ const trabajosRealizados = [];
 });*/
 
 trabajosRealizados.push({
-     imageWebPort:"./img/Exp/DisalvoTruck.PNG",
-     imageWebCod:"./img/Exp/DisalvoTruck_Cod.PNG",
-     text:"Quiero compartirles la primera Página web que desarrolle con Wordpress trabajando para la empresa QA digital ADS. Esta página web está desarrollada con elementor Pro y CSS, con altos estándares de calidad en diseño, buenas practicas y ciber seguridad, utilizando los plugins correspondientes. ",
-     enlaceGit:"https://qadigitalads.com/",
-     enlaceWeb:"https://disalvocourierservice.com/",
-});
-trabajosRealizados.push({
      imageWebPort:"./img/Exp/Enycosmic_Cod.PNG",
      imageWebCod:"./img/Exp/Enycosmic.PNG",
      text:"Enycosmic Metavers es un proyecto emprendedor que combina múltiples tecnologías para crear un metaverso cósmico interactivo y educativo. En el frontend, utilizamos React y JavaScript, mientras que en el backend implementamos Node.js, Python y PHP. Además, empleamos WordPress como CMS para funciones específicas. Nuestro metaverso funciona como un juego multijugador que integra gráficos 3D y 2D, y elementos de realidad aumentada para ofrecer una experiencia de interacción y aprendizaje inmersiva.",
      enlaceGit:"https://www.linkedin.com/in/jorge-villa-l%C3%B3pez-742647b5/",
      enlaceWeb:"https://www.enycosmic.site/",
 });
+
+trabajosRealizados.push({
+     imageWebPort:"./img/Exp/weInversiones.PNG",
+     imageWebCod:"./img/Exp/weInversiones_Cod.PNG",
+     text:"En este proyecto diseñé en Figma y desarrollé la interfaz en WordPress con Elementor Pro, añadiendo interacciones con JavaScript en cada sección. Es un sitio para una inmobiliaria de terrenos en la playa, donde busqué capturar y reflejar la belleza de la naturaleza en la web.",
+     enlaceGit:"https://weinversiones.com/",
+     enlaceWeb:"https://weinversiones.com/",
+});
+
+trabajosRealizados.push({
+     imageWebPort:"./img/Exp/DisalvoTruck.PNG",
+     imageWebCod:"./img/Exp/DisalvoTruck_Cod.PNG",
+     text:"Quiero compartirles la primera Página web que desarrolle con Wordpress trabajando para la empresa QA digital ADS. Esta página web está desarrollada con elementor Pro y CSS, con altos estándares de calidad en diseño, buenas practicas y ciber seguridad, utilizando los plugins correspondientes, y desarrollo SEO. Esta página fue desarrollada en ingles ",
+     enlaceGit:"https://qadigitalads.com/",
+     enlaceWeb:"https://veronicascleaningsolutions.com/",
+});
+
+trabajosRealizados.push({
+     imageWebPort:"./img/Exp/veronicasCleaning.PNG",
+     imageWebCod:"./img/Exp/veronicasCleaning_Cod.PNG",
+     text:"Quiero compartirles la primera Página web que desarrolle con Wordpress trabajando para la empresa QA digital ADS. Esta página web está desarrollada con elementor Pro y CSS, con altos estándares de calidad en diseño, buenas practicas y ciber seguridad, utilizando los plugins correspondientes, y desarrollo SEO. Esta página fue desarrollada en ingles ",
+     enlaceGit:"https://qadigitalads.com/",
+     enlaceWeb:"https://disalvocourierservice.com/",
+});
+
 trabajosRealizados.push({
      imageWebPort:"./img/Exp/Monastery.PNG",
      imageWebCod:"./img/Exp/Monastery_Cod.PNG",
