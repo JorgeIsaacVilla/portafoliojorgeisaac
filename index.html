@@ -1,306 +1,228 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="shortcut icon" href="./public/Favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./style/root.css">
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/bin.css">
-    <link rel="stylesheet" href="./style/styleVentanaEmergente.css">
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link rel="stylesheet" href="./style/styleMin1200.css" media="screen and (max-width:1200px)">
-    <link rel="stylesheet" href="./style/styleMin992.css" media="screen and (max-width:992px)">
-    <link rel="stylesheet" href="./style/styleMin768.css" media="screen and (max-width:768px)">
-    <link rel="stylesheet" href="./style/styleMin600.css" media="screen and (max-width:600px)">
-    <link rel="stylesheet" href="./style/styleMin480.css" media="screen and (max-width:480px)">
-    <title>Frontend Developer Jorge Isaac </title>
+          <link rel="stylesheet" href="style.css">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta property="og:title" content="Portafolio de Desarrollo Web Ingeniero Jorge Isaac Villa">
-    <meta name="description" content="Ingeniero y desarrollador Web Jorge Isaac Villa lópez, experto desarrollo interactivo utilizando tecnologías de punta y con solidos valores humanos, listo para realizar aportes significativos a tu empresa.">
-    <meta property="og:image" content="https://github.com/JorgeIsaacVilla/jorgeisaac/blob/master/public/Favicon.png"> <!-- URL de una imagen que se mostrará en la vista previa -->
-    <meta name="keywords" content="desarrollador, experiencia, portafolio, portafolio web, HTML, CSS, JS, React, Elementor, Wordpress Autocad, Dialux, Solidword, Sketchup, desarrollador web, web, desarrollador frontend, software developer, tecnología, innovación, Git, Github, juegos html">
-    <meta name="author" content="Jorge Isaac Villa López">
-</head>
+          <meta name="description" content="Explora mi perfil como Ingeniero, Desarrollador y Profesor. Experiencia en infraestructura eléctrica, desarrollo web y métodos educativos.">
+
+          <link rel="shortcut icon" href="./img/Favicon0.png" type="image/x-icon">
+          <title>Jorge Isaac Villa</title>
+
+          <meta property="og:title" content="Portafolio de Desarrollo Tecnológico - Ingeniero Jorge Isaac Villa">
+          <meta name="description" content="Descubre una experiencia única al explorar el portafolio de desarrollo tecnológico del ingeniero Jorge Isaac Villa. Aquí, el ingenio se combina con el desarrollo tecnológico y la comunicación asertiva para lograr proyectos innovadores. ¡Bienvenido a un mundo de creatividad y tecnología de punta!">
+          <meta property="og:image" content="https://raw.githubusercontent.com/JorgeIsaacVilla/my_portafolio/421371e94613d9382c1eda559f9a4ba13ac80874/data/img/elements/bin.svg"> <!-- URL de una imagen que se mostrará en la vista previa -->
+          <meta name="keywords" content="desarrollador, experiencia, portafolio, portafolio web, HTML, CSS, JS, React, Angular, Autocad, Dialux, Solidword, Sketchup, Ingenieria electrica, ingeniero eléctrico, desarrollador web, web, desarrollador frontend, software developer, desarrollo tecnológico Git, innovación, Git, Github, astronomía, musica, profesor, juegos, pixel art, pixel, arte, sistema operativo, window">
+          <meta name="author" content="Ingeniero Jorge Isaac Villa López">
+          
+     </head>
 <body>
-
-<!--Chat Bot Bin (inicio)-->
-  <button class="button-chat-bin" id="bin">
-    <div class="canva">
-      <div class="top">
-          <div class="circulo"></div>
-          <div class="antena"></div>
-          <div class="base2"></div>
-          <div class="base1"></div>
-      </div>
-      <div class="botton">
-          <div class="ear"></div>
-          <div class="head">
-              <div class="face">
-                  <div class="eyes">
-                      <div class="eye"></div>
-                      <div class="eye"></div>
-                  </div>
-              </div>
+<header class="header1"> 
+     <div class="boxName1" style="display: flex; justify-content: space-evenly; align-items: center;">
+          <div class="name">
+               <div class="name_image" style=" margin-left: 0; margin-top: 0;"></div>
           </div>
-          <div class="ear"></div>
-      </div>
-    </div>
-  </button>
-  <script src="./script/scriptBin.js"></script>
-<!--Chat Bot Bin (fin)-->
+     </div>
+     <div class="icono-menu">
+          <img src="./img/open-menu.png" id="icono-menu">
+     </div>
+     <div class="cont-menu active" id="menu">
+          <ul>
+               <li id="list_style" class="sobre_mi_li"><a href="#sobreMi">Descripción</a></li>
+               <li id="list_style"><a href="#portafolioExperiencia">Lo que dicen acerca de mí</a></li>
+               <li id="list_style"><a class="boton_contactame_header" href="#contactame">Contáctame</a></li>
+          </ul>
+     </div>
+     <script src="./js/app.js"></script>
 
-<div class="web-container">
-  <!--gradient (inicio)-->
-  <div class="container-gradient">
-    <div class="gradient-bg">
-      <svg 
-          viewBox="0 0 100vw 100vw"
-          xmlns='http://www.w3.org/2000/svg'
-          class="noiseBg"
-          >
-        <filter id='noiseFilterBg'>
-          <feTurbulence 
-            type='fractalNoise'
-            baseFrequency='0.6'
-            stitchTiles='stitch' 
-          />
-        </filter>
-    
-        <rect
-          width='100%'
-          height='100%'
-          preserveAspectRatio="xMidYMid meet"
-          filter='url(#noiseFilterBg)' 
-        />
-      </svg>
-      <svg xmlns="http://www.w3.org/2000/svg" class="svgBlur">
-        <defs>
-          <filter id="goo">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
-            <feBlend in="SourceGraphic" in2="goo" />
-          </filter>
-        </defs>
-      </svg>
-      <div class="gradients-container">
-        <div class="g1"></div>
-        <div class="g2"></div>
-        <div class="g3"></div>
-        <div class="g4"></div>
-        <div class="g5"></div>
-        <div class="interactive"></div>
-      </div>
-    </div>
-  </div>
-  <!--gradient (fin)-->
+</header>
+<div id="particles-js"></div>
+     <script src="js/particles.min.js"></script>
+     <script src="js/particlesjs-config.json"></script>
+<section class="presentacion" id="sobreMi">
+     <h1 >¡Hola! Que gusto tenerte</h1>
+     <h1 style="padding-top: 0px!important; margin-bottom: 32px;">por aquí.</h1>
+     <h2 class="text_presentacion">Soy Jorge Villa, un apasionado por la tecnología que integra el desarrollo web con la ingeniería.</h2>
+     <div class="presentacion1">
+          <img class="mi_imagen"  src="./img/mi_imagen.jpg"/>
+     </div>
+     <div class="textos_parrafos"> 
+          <p  class="history">Dejo mi huella en cada reto que emprendo. Puedes contar con mis conocimientos, habilidades y experiencia para que la visión de tu proyecto, con persistencia, compromiso, respeto y honestidad, se haga realidad.</p>
+     </div>
+     <div>
+          <!--<button  class="experiencia-button ver_portafolio" onclick="aparecer()" href="javascript:funciones()"> Experiencia</button>-->
+          <p class="history">Aptitudes:</p>       
+               <div class="lista">
+                    <ul class="li1">
+                         <li id="list_style">Disciplina</li>
+                         <li id="list_style">Comprometido</li>
+                    </ul>
+                    <ul class="li1">
+                         <li id="list_style">Learnability</li>
+                         <li id="list_style">Orientado al logro</li>
+                    </ul>
+                    <ul class="li1">
+                         <li id="list_style">Creativo</li>
+                         <li id="list_style">Liderazgo</li>
+                    </ul>
+                    <ul class="li1">
+                         <li id="list_style">Nivel de inglés conversacional</li>
+                         <li id="list_style">Gestión del tiempo</li>
+                    </ul>
+               </div>               
+     </div>
+     <h2 class="text_presentacion">¿Cuál de mis perfiles te gustaría conocer?</h2>
+     <div class="canva-buttons-portfolios">
+          <button class="ver_portafolio"><a href="./desarrolloWeb.html" class="ver_portafolio_Enlace">Desarrollador de software</a></button>
+          <button class="ver_portafolio"><a href="./ingenieria.html" class="ver_portafolio_Enlace"> Ingeniero Eléctrico </a></button>
+          <button class="ver_portafolio"><a href="./maestro.html" class="ver_portafolio_Enlace">Maestro</a></button>
+     </div>
+</section>
 
-  <script src="./script/scriptGradient.js"></script>
+<section class="sobre_mi_presentacion" style="background-size: 100% 100%;">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+     <h2 class="sobre_mi_portafolio referent" id="portafolioExperiencia">Lo que dicen acerca de mi trabajo</h2>
+     <div class="canva_referencias">
+          <div class="referencia_imagenes">
+               <a href="https://www.linkedin.com/in/jes%C3%BAs-andr%C3%A9s-lastra-crespo-912779b0/">
+                    <div>
+                         <img src="./img/Jesus.jpg" alt="">
+                         <h3>Jesus Lastra</h3>
+                    </div>
+               </a>
+               <p style="text-align: center; margin: 0;">Me complace recomendar al Sr. Jorge Villa López, con quien he colaborado y conocido durante más de 2 años.
 
-  <!--Header (inicio)-->
-  <header>
-    <div class="grid-container header-container">
-      <div class="icons">
-        <img class="logo" src="./public/logo.png" alt="icono Jorge Villa">
-        <div class="box-social-midia"></div>
-      </div>
-      <div class="menu">
-        <ul class="menu-list"></ul>
-      </div>
-
-      <button class="button-menu-hamburquesa-oppen">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-
-    <div class="menu-hamburquesa">
-      <div class="container-button-close">
-        <button class="button-menu-hamburquesa-close">
-          <span></span>
-          <span></span>
-        </button>
-      </div>
-
-      <ul class="menu-list-movil"></ul>
-
-      <div class="box-social-midia-menu"></div>
-    </div>
-
-  </header>
-  <!--Header (fin)-->  
-
-  <!--Section one (inicio)-->
-  <section id="inicio">
-      <div class="grid-container section-one">
-          <div class="section-one-left">
-              <h1>
-                  <strong>Hola,</strong> soy Jorge, </br> ¡Un gusto tenerte </br> por aquí!
-              </h1>
-              <h2>
-                  Soy un apasionado por la tecnología que integra el desarrollo web con la ingeniería. 
-              </h2>
-              <p>
-                  Dejo mi huella en cada reto que emprendo. Puedes contar con mis conocimientos, habilidades y experiencia para que la visión de tu proyecto, con persistencia, compromiso, respeto y honestidad, se haga realidad.
-              </p>
-              <div class="box-buttons-section-one">
-                  <a class="buttons-section-one-left" href="./src/hv/HV - Software Jorge Villa.pdf" download="HV - Software Jorge Villa">Ver Hoja de Vida</a>
-                  <button class="buttons-section-one-left" id="game">Juega mis Juegos</button>
-              </div>
+                    Jorge destaca por su honestidad, dedicación y responsabilidad en cada proyecto. Su habilidad para expresarse claramente y comunicar ideas, junto con una vocación de liderazgo, ha sido evidente en nuestra colaboración. Su alto grado de organización ha mejorado procesos administrativos mediante la implementación de plantillas programadas con macros. Además, ha demostrado eficiencia en la gestión de la programación de sistemas PLC parametrizados.
+                    
+                    Recomiendo a Jorge por su capacidad para trabajar de manera independiente y en equipo, así como por su habilidad para resolver conflictos de manera efectiva.</p>
           </div>
-
-          <div class="section-one-right">
-              <img src="./src/Jorge.svg" alt="">
-              <div id="codeContainer"></div>
+          <div class="referencia_imagenes">
+               <a href="https://www.linkedin.com/in/gloria-de-jes%C3%BAs-monroy-sanjuan-69632415b/">
+                    <div>
+                         <img src="./img/Gloria.jpg" alt="">
+                         <h3>Gloria Monroy</h3>                       
+                    </div>
+               </a>
+               <p style="text-align: center; margin: 0;">He trabajado con Jorge, y me consta su disciplina y dedicación en los proyectos. Hace muy buen trabajo en equipo y sabe escuchar. Considero que le va muy bien en todos los proyectos que se propone porque siempre se interesa por entregarle a sus clientes trabajo de calidad.</p>
           </div>
-          
-          <script src="./script/scriptSectOne.js"></script>
-          
-          <div class="section-one-botton">
-            <div class="tittle-section-box"><h2>SKILLS</h2></div>
-            <div class="section-botton-description">
-              <h3>
-                Frontend </br> <span>Developer</span>
-              </h3>
-              <p>
-                Diseñando y programando páginas webs interactivas, intuitivas, y enfocadas en la resolución del problema y la calidad de código, con experiencia de más de un año en entornos de equipos dinámicos.
-              </p>
-              <p><strong>
-                Resiliente | Trabajo en equipo | Orientado al logro | Learnability | Creativo | Liderazgo | Gestión del tiempo | Comprometido
-              </strong></p>
-            </div>
-            
-            <div class="section-botton-tecnologies">
-              <h2>Tecnologías</h2>
-                <img src="./src/tecnologias/js.svg" alt="JavaScript">
-                <img src="./src/tecnologias/react.svg" alt="python">
-                <img src="./src/tecnologias/wordpress.svg" alt="wordpress">
-                <img src="./src/tecnologias/elementor.svg" alt="elementor">
-                <img src="./src/tecnologias/node.svg" alt="node">
-                <img src="./src/tecnologias/python.svg" alt="python">
-              <h2>Softwares complementarios</h2>
-                <img src="./src/tecnologias/git.svg" alt="">
-                <img src="./src/tecnologias/github.svg" alt="">
-                <img src="./src/tecnologias/figma.svg" alt="">
-                <img src="./src/tecnologias/xd.svg" alt="">
-                <img src="./src/tecnologias/photoshop.svg" alt="">
-            </div>
+          <div class="referencia_imagenes">
+               <a href="https://www.linkedin.com/in/j%C3%A9sica-ayelen-glabor/">
+                    <div>
+                         <img src="./img/Jesica.jpg" alt="">
+                         <h3>Jesica Glabor</h3>
+                    </div>
+               </a>
+               <p style="text-align: center; margin: 0;">Hemos trabajado en equipo y ha sido muy gratificante y profesional. Ha entregado en tiempo y forma todo lo que se le ha solicitado y tiene una alta atención al detalle. Es disciplinado y eficiente con la distribución de sus tareas y sus respectivas entregas. Recomiendo su trabajo, ya que sabe desenvolverse muy bien tanto de forma independiente como en equipo y tiene muy buena resolución de conflictos.</p>
           </div>
-            
-      </div>
-  </section>
-  <!--Section one (fin)-->
-
-  <!--section two (inicio)-->
-  <section class="section-two" id="proyectos">
-    <img class="image-decoration" src="./src/section2-img.png">
-    <div class="grid-container box-section-two">
-      
-    </div>
-  </section>
-  <script src="./script/scriptSectTwo.js"></script>
-  <!--section two (fin)-->
-
-  <!--Testimonios (inicio)-->
-  <section id="referencias">
-    <div class="grid-container testimonial">
-
-      <div class="box-testimonial">
-        <div class="tittle-testimonial">
-          <h2>Testimonios</h2>
-        </div>
-        <div class="testimonials">
-          <a href="#" class="box-top-testimonial">
-            <div>
-              <div class="container-image">
-                <img src="./src/testimonios/Jesus.jpg" alt="">
-              </div>
-            </div>
-            <p>Jesús <strong>Lastra</strong></p>
-          </a>
-          <p>
-            Es un placer recomendar al Sr. Jorge Villa López, con quien he trabajado durante más de 2 años. Jorge se distingue por su honestidad, dedicación y responsabilidad en cada proyecto.
-          </br></br>
-            Su capacidad para comunicarse claramente y su vocación de liderazgo han sido clave en nuestra colaboración. Además, su alto nivel de organización ha optimizado procesos administrativos mediante plantillas con macros.
-          </br></br>
-            Jorge es capaz de trabajar tanto de forma independiente como en equipo, y resuelve conflictos de manera efectiva.
-          </p>
-        </div>
-      </div>
-
-      <div class="box-testimonial">
-        <div class="testimonials">
-          <a href="#"  class="box-top-testimonial">
-            <div>
-              <div class="container-image">
-                <img src="./src/testimonios/Gloria.jpg" alt="">
-              </div>
-            </div>
-            <p>Gloria <strong>Monrroy</strong></p>
-          </a>
-          <p>
-            He trabajado con Jorge, y me consta su disciplina y dedicación en los proyectos. Hace muy buen trabajo en equipo y sabe escuchar. Considero que le va muy bien en todos los proyectos que se propone porque siempre se interesa por entregarle a sus clientes trabajo de calidad.
-          </p>
-        </div>
-
-        <div class="testimonials">
-          <a href="#"  class="box-top-testimonial">
-            <div>
-              <div class="container-image">
-                <img src="./src/testimonios/Jesica.jpg" alt="">
-              </div>
-            </div>
-            <p>Jesica <strong>Glabor</strong></p>
-          </a>
-          <p>
-            Trabajar con Jorge ha sido muy gratificante y profesional. Ha entregado en forma todo lo que se le ha solicitado con una alta atención al detalle. Es disciplinado y eficiente con la distribución de sus tareas, tiene habilidades para comunicarse con diferentes roles dentro de un equipo. Recomiendo su trabajo, ya que sabe desenvolverse en entornos de trabajo dinámicos.
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <!--Testimonios (fin)-->
-
-  <!--footer (inicio)-->
-  <footer>
-    <div class="grid-container box-footer">
-      <div class="box-1-footer">
-        <h2>¡Trabajemos </br> <strong>juntos!</strong></h2>
-        <p>Estoy en busca de nuevas oportunidades, desafíos y retos, me apasiona aprender y fortalecer mis habilidades. <strong>¡Estoy entusiasmado por comenzar a trabajar en tu proyecto!</strong></p>
-      </div>
-      <div class="box-buttons-footer">
-        <a href="./src/hv/HV - Software Jorge Villa.pdf" download="HV - Software Jorge Villa">Ver hoja de vida</a>
-        <a href="https://wa.me/573218828546?text=Vi%20tu%20perfil%20de%20desarrollador%20web%20en%20tu%20p%C3%A1gina%20web%20y%20estoy%20interesado%20en%20contactar%20contigo">Contáctame</a>
-      </div>
-      <div class="redes-footer">
-        <img class="logo" src="./public/logo.png" alt="icono Jorge Villa">
-        <div>
-          <div class="box-social-midia"></div>
-        </div>
-      </div>
-      <p class="terminos"> Página web desarrollada por Jorge Isaac Villa López </p>
-    </div>
-  </footer>
-  <!--footer (fin)-->
-
-  <script src="./script/scriptHeader.js"></script>
-<!--
-  <section class="ventana-emergente">
-    <div class="box-ventana-emergente">
-      <div class="header-ventana-emegente">
-        <h2 class="title-ventana-emergente">Titulo</h2>
-        <button>X</button>
-      </div>
-      <p class="description-emergente"> Modi magnam minus quidem commodi voluptas unde <strong>corporis,</strong> eum porro repudiandae.</p>
-      <iframe class="iframe-ventana-emergente" frameborder="0" src="https://ejemplo.com/"></iframe>
-    </div>
-  </section>
--->
-  <script src="./script/scriptWindows.js"></script>
-
+     </div>
 </div>
+</section>
+
+<section class="contactame" id="contactame">
+     <h3 class="titulo_contacto">Contacto</h3>
+     <p class="texto_contactame">Estoy en busca de nuevas oportunidades, desafíos y retos, me apasiona aprender y descubrir. ¡Estoy entusiasmado por comenzar a trabajar en tu proyecto!</p>
+     <div class="informacion_personal">
+          <div class="strongs-canva">
+               <div class="strongs">
+                    <img class="image_contact" src="./img/ic_phone_in_talk_24px.png" alt="" style="margin-left: 10%;">
+                    <strong><a class="contact_data" href="https://wa.me/3218828546?text=Hola Jorge Isaac">(+57) 3218828546</a></strong>
+               </div>
+               <div class="strongs">
+                    <img class="image_contact" src="./img/ic_mail_outline_24px.png" alt="" style="margin-left: 10%;">
+                    <strong><a class="contact_data">jvilla10@outlook.es</a></strong>
+               </div>
+          </div>
+     </div>
+
+<!--INICIO - VENTANA FLOTANTE, (inicio)
+     <div id="ventana_flotante">
+          <div class="header_ventana_flotante">
+               <div>
+                    <div class="saturno">
+                         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                         <lottie-player class="saturno_image" src="0tUXPO11PA.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                    </div>
+                    <h2 class="des_exp">Resolvamos el mundo juntos.</h2>
+               </div>
+               <button href="#contactame" id="cerrar" onclick="desaparecer()" href="javascript:funciones()"><img src="./img/Grupo 14439.png" alt=""></button>
+          </div>
+          
+          <div class="canva_vent_flot">
+               <div class="canva_elements">
+                    <div class="canva_exp">
+                         <h2>Trabajos independientes.</h2>
+                         <div class="canva_exp_scroll">
+                              <ul>
+                                   <li> 
+                                        <h3> Monastery </h3>
+                                        <a href="https://www.monasterynft.com/"><img src="./img/Exp/Monastery.PNG" alt=""></a>
+                                        <p>Pagina de aterrizaje, dinámica, intuitiva, responsive.</p>
+                                   </li>
+
+                                   <li> 
+                                        <h3> El Desvio Restobar </h3>
+                                        <a href="https://jorgeisaacvilla.github.io/el-desvio-restobar/"><img src="./img/Exp/ElDesvioRestobar.PNG" alt=""></a>
+                                        <p>Diseño de pagina web y mantenimiento de pagina - Menú en línea.</p>
+                                   </li>
+
+                                   <li> 
+                                        <h3> El Bodegon De Lucho </h3>
+                                        <a href="https://jorgeisaacvilla.github.io/bebidas-restobar/"><img src="./img/Exp/ElBodegon.PNG" alt=""></a>
+                                        <p>Diseño de pagina web y mantenimiento de pagina - Menú en línea.</p>
+                                   </li>
+                              </ul>
+                         </div>
+                    </div>
+                    <div class="canva_exp">
+                         <h2>Experiencia laboral</h2>
+                         <div class="canva_exp_scroll">
+                              <ul>
+                                   <li>Electricaribe S.A. E.S.P.</li>
+                                   <p>Auxiliar de jefe de mantenimiento; encargado de realizar mantenimiento correctivo y predictivo en líneas de media tensión</p>
+                                   <li>M&E ingenieria</li>
+                                   <p>Encargado de diseño de redes eléctricas de media y baja tensión, y uso final, diseño de sistemas fotovoltaicos, diseño de control y automatización de procesos industriales</p>
+                                   <li>APPLUS + </li>
+                                   <p>Ingeniero de Telecontrol</p>
+                                   <li>Conforfresh</li>
+                                   <p>Encargado de diseño de control y automatización, programación de PLC, controladores PID, variadores de velocidad, entre otros para los sistemas de refrigeración industrial, atención al cliente para gestión y mantenimiento locativo.</p>
+                                   <li>consultoras SAS</li>
+                                   <p>Auxiliar de estructuración de proyectos</p>
+                                   <li>JST projects</li>
+                                   <p>Ingeniero de diseño y de presupuesto</p>
+                                   <li>INEN</li>
+                                   <p>Profesor de Matemáticas y Física. Primaria y Bachillerato</p>
+                              </ul>
+                         </div>
+                    </div>
+                    <p class="des_exp">Resolvamos el mundo juntos.</p>
+               </div>     
+          </div>
+     </div> -->
+<!--INICIO - VENTANA FLOTANTE, (fin)-->
+
+     <footer><a href="https://jorgeisaac.website/">Si deseas ver mi perfil con una experiencia de pixel art, haz clic ¡aquí!</a></footer>
+   
+     <!--<script>
+          function funciones(){
+               document.getElementById("vent_flotante").onclick = aparecer;
+               document.getElementById("cerrar").onclick = desaparecer;
+          }
+
+          function aparecer(){
+                    var x=document.getElementById("ventana_flotante").style;
+                         x.display = "block";
+                         menu.classList.toggle('active');
+          document.body.classList.toggle('opacity');
+          }
+
+          function desaparecer(){
+                    var x=document.getElementById("ventana_flotante").style;
+                         x.display = "none";
+          } 
+     </script>-->
+</section>
 </body>
 </html>
