@@ -1,0 +1,24 @@
+/*Alternativas*/
+.img-section-alternative{
+    border-radius: 16px;
+    border: 3px solid #1AD6EB;
+    margin-bottom: 230px;
+  }
+  .margin-alternative{
+    margin-right: 34px;
+  }
+  @media (max-width:1200px){
+    .img-section-alternative{
+        width: 93% !important;
+        margin-bottom: 80px;
+      }
+  }
+  @media (max-width:768px){
+    .img-section-alternative{
+        width: 100% !important;
+        margin-bottom: 0;
+      }
+      .margin-alternative{
+        margin-right: 0px;
+      }
+  }

@@ -1,0 +1,44 @@
+@media(max-width:1200px){
+    /*header(inicio)*/
+    header{
+        padding: 30px 0;
+    }
+    .header-container ul{
+        width: 80%;
+        justify-content: end;
+        gap:15px
+    }
+    .icons{
+        padding-left: 0;
+    }
+    .menu{
+        width: auto;
+        padding-right: 0px;
+        display: flex;
+    }
+    .menu ul{
+        width: auto;
+    }
+    /*header(fin)*/
+
+    /*section one(inicio)*/
+    .section-one-left{
+        width: 43%;
+    }
+    .section-one-right{
+        width: 43%;
+    }
+    .section-botton-description{
+        width: 40%; 
+    }
+    /*section one(fin)*/
+
+    /*section two(inicio)*/
+    .section-two-button{
+    margin-top: -150px;
+    }
+    .section-two-button-right{
+        width: 55%;
+    }
+    /*section two(fin)*/
+}

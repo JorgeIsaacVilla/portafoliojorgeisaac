@@ -1,0 +1,174 @@
+/* font-weight
+100: Thin (ultra ligera)
+200: Extra Light (extra ligera)
+300: Light (ligera)
+400: Normal / Regular
+500: Medium
+600: Semi-Bold
+700: Bold
+800: Extra-Bold
+900: Black (muy gruesa)
+*/
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./font/static/Montserrat-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+
+:root{
+    --color-primario:#4839ce;
+    --color-segundario:#13FAF7;
+    --color-terciario:#13FAF7;
+    --color-cuaternario:#0c9c94
+
+    ;
+
+    --text-color-1:#FCFCFC;
+    --text-color-2:#19BBB9;
+
+    /*font-weight(inicio)*/
+    --font-regular:100;
+    --font-light:300;
+    --font-bold:800;
+    /*font-weight(fin)*/
+    
+    --text-size-16:1.6rem;
+    --text-size-18:1.8rem;
+    --text-size-24:2.4rem;
+    --text-size-35:3.5rem;
+    --text-size-50:5rem;
+
+    /*GRADIENTES*/
+    --color-bg1: #1AD6EB;
+    --color-bg2: #3D59D0;
+    --color1: 26, 200, 255; /* Más claro que --color-bg1 */
+    --color2: 61, 89, 208;  /* Similar a --color-bg2 */
+    --color3: 75, 180, 255; /* Suavizado de --color-bg1 */
+    --color4: 45, 140, 200; /* Mezcla de --color-bg1 y --color-bg2 */
+    --color5: 60, 50, 140;  /* Más oscuro que --color-bg2 */
+
+    --color-interactive: 140, 100, 255;
+    --circle-size: 80%;
+    --blending: hard-light;
+}
